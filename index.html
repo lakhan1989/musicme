@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicMe Blog</title>
+    <link rel="stylesheet" href="musicmeblog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+ 
+
+
+<style>
+    ul {
+      list-style-type: none;
+      overflow: hidden;
+    }
+      
+    li a:hover:not(.active) {
+      color: rgb(255, 116, 3);
+    }
+    
+    li a.active {
+      color: rgb(255, 116, 3);
+    }
+    li a{
+        
+      text-decoration: none;
+    }
+    </style>
+
+
+</head>
+<body style="font-family: roboto;">
+    <div class="title-bar"><p class="title">MUSICME</p>
+    
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+         
+        <ul> 
+          <li><a href="#">REVIEWS</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">TOURS</a></li>
+            <li><a href="#">BEST NEW MUSIC</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">FESTIVALS</a></li>
+            <li><a href="#">INTERVIEWS</a></li>
+            <li><a href="#">LISTS</a></li>
+            <li><a href="#">ALBUM REVIEWS</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="first-container" data-aos="fade-up" data-aos-duration="700" data-aos-delay="500">
+ 
+
+        <div class="mySlides">
+        <div class="main-img">
+            <img class="first-cont-img" src="https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Italian Trulli">
+        </div>
+            <a href=""><p class="title1-on-img">Lexi Jayde is one step 'Closer To Closure' [Interview]</p></a>
+            <p class="title2-on-img">LONDON  -  JUNE 19, 2022</p>
+            <div class="title3-on-img">
+                <a class="title3-link" href="">ALT-POP</a>
+                <a class="title3-link" href="">INDIE</a>
+                <a class="title3-link" href="">MAINSTAGE</a>
+                <a class="title3-link" href="">MUSIC VIDEO</a>
+                <a class="title3-link" href="">PREMIERE</a>
+            </div>
+            <div class="btn-main-img">
+                <button class="btn-on-img">READ MORE...</button>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="main-img">
+                <img class="first-cont-img" src="https://images.unsplash.com/photo-1525926477800-7a3b10316ac6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Italian Trulli">
+            </div>
+                <a href=""><p class="title1-on-img">Flume at Field Day Sydney</p></a>
+                <p class="title2-on-img">SYDNEY  -  JUL 24, 2022</p>
+                <div class="title3-on-img">
+                    <a class="title3-link" href="">ALT-POP</a>
+                    <a class="title3-link" href="">INDIE</a>
+                    <a class="title3-link" href="">MAINSTAGE</a>
+                    <a class="title3-link" href="">MUSIC VIDEO</a>
+                    <a class="title3-link" href="">PREMIERE</a>
+                </div>
+                <div class="btn-main-img">
+                    <button class="btn-on-img">READ MORE...</button>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="main-img">
+                    <img class="first-cont-img" src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Italian Trulli">
+                </div>
+                    <a href=""><p class="title1-on-img">Band members in yellow lights</p></a>
+                    <p class="title2-on-img">NEW YORK  -  MAY 13, 2022</p>
+                    <div class="title3-on-img">
+                        <a class="title3-link" href="">ALT-POP</a>
+                        <a class="title3-link" href="">INDIE</a>
+                        <a class="title3-link" href="">MAINSTAGE</a>
+                        <a class="title3-link" href="">MUSIC VIDEO</a>
+                        <a class="title3-link" href="">PREMIERE</a>
+                    </div>
+                    <div class="btn-main-img">
+                        <button class="btn-on-img">READ MORE...</button>
+                    </div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+             
+
+            <div class="owl-dots">
+                <button role="button" class="owl-dot active"><span></span></button>
+                <button role="button" class="owl-dot" onclick="currentSlide(1)"><span></span></button>
+                <button role="button" class="owl-dot" onclick="currentSlide(2)"><span></span></button>
+                <button role="button" class="owl-dot" onclick="currentSlide(3)"><span></span></button>
+                <button role="button" class="owl-dot" onclick="currentSlide(4)"><span></span></button>
+                <button role="button" class="owl-dot" onclick="currentSlide(5)"><span></span></button>
+                <button role="button" class="owl-dot" onclick="currentSlide(6)"><span></span></button>
+                <button role="button" class="owl-dot"
+                onclick="currentSlide(7)"><span></span></button>
+            </div>
+    </section>
+
+
+
+<section class="main-container" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"> 
+    
+    <div class="container2">
+        <img class="img2" src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+        <p class="img2-title">5 Takeaways From Drake’s New<br> Album Honestly, Nevermind</p>
+        <p class="img2-title2">BY: JAYSON GREENE<br>THE PITCH</p>
+    </div>
+
+    <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1613633606213-dc3ee9ee67af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Avatar">
+        <div class="card-title">
+          <p class="card-title-view-up">Steve Albini Wins Major Prize at 2022 World Series of Poker</p> 
+          <p class="card-title-view-down">BY: NINA CORCORAN<br>NEWS</p> 
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img" src="https://images.unsplash.com/photo-1582711012124-a56cf82307a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1240&q=80" alt="Avatar">
+        <div class="card-title">
+            <p class="card-title-view-up" >Nathan Fielder’s New HBO Show The Rehearsal Gets Premiere Date</p> 
+            <p class="card-title-view-down" >BY: MATTHEW STRAUSS<br>NEWS</p> 
+          </div>
+    </div> 
+</section>
+
+<section class="side-section" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+    <div >
+    <div class="side-div" style="margin-top: 0px;"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <img class="side-img" src="https://images.unsplash.com/photo-1593359863503-f598684c806f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+            <div class="side-title">
+                <button class="btn" data-aos="fade-right" data-aos-duration="700" data-aos-delay="200">REVIEWS</button>
+                <p style="font-size: 14px; margin-top: 15px;">Thu Jun 16 2022</p>
+                <p style="font-size: 22px; margin-top: 10px;">Jason Kerrison x Leigh Franklin<br>Releases Someone Should Love You</p>
+            </div>
+    </div>
+    <div class="side-div"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <div>
+        <img class="side-img" src="https://images.unsplash.com/photo-1559697242-07e90b48b9fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+    </div>
+        <div class="side-title">
+            <button class="btn" data-aos="fade-right" data-aos-duration="700" data-aos-delay="200">REVIEWS</button>
+            <p style="font-size: 14px; margin-top: 15px;">Thu Jun 17 2022</p>
+            <p style="font-size: 22px; margin-top: 10px;">Jon Vinyl Radiates In The Complexities<br>Of Love With Favours</p>
+        </div>
+    </div>
+    <div class="side-div"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <img class="side-img" src="https://images.unsplash.com/photo-1519866643001-0472e61bfcec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+        <div class="side-title">
+            <button class="btn" data-aos="fade-right" data-aos-duration="700" data-aos-delay="200">NEWS</button>
+            <p style="font-size: 14px; margin-top: 15px;">Thu Jun 16 2022</p>
+            <p style="font-size: 22px; margin-top: 10px;">The Most Eagerly Awaited UK Stadium<br>Gigs Of 2022</p>
+        </div>
+    </div>
+</div>
+
+    <div class="parent">
+        <div class="opacity-left"><span class="opacity-text">Taylor Roche<br>Drops Breakup<br>Anthem Similar<br>Feeling</span><button class="opacity-btn">REVIEWS</button></div>
+        <div class="opacity-right"><span class="opacity-text">ViVii Releases<br>The Magical<br>Carmel Beach</span><button class="opacity-btn">REVIEWS</button></div>
+        <img class="side-sec-img" src="https://images.unsplash.com/flagged/photo-1574164908900-6275ca361157?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80">
+    </div>
+</section>
+
+<h2 class="title-section" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">MUSICIANS LIFESTYLE</h2>
+
+<section class="side-section" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+
+    <div class="parent">
+        <div class="opacity-left"><span class="opacity-text">Taylor Roche<br>Drops Breakup<br>Anthem Similar<br>Feeling</span><button class="opacity-btn">LIFESTYLE</button></div>
+        <div class="opacity-right"><span class="opacity-text">ViVii Releases<br>The Magical<br>Carmel Beach</span><button class="opacity-btn">LIFESTYLE</button></div>
+        <img class="side-sec-img" src="https://images.unsplash.com/photo-1656370747240-97c9f260851d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80">
+    </div>
+
+
+    <div class="life-img"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+    <div class="side-div" style="margin-top: 0px;">
+            <img class="side-img"  src="https://images.unsplash.com/photo-1530021232320-687d8e3dba54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+            <div class="side-title">
+                <button class="btn" data-aos="fade-right" data-aos-duration="700" data-aos-delay="200">LIFESTYLE</button>
+                <p style="font-size: 14px; margin-top: 15px;">Thu Jun 16 2022</p>
+                <p style="font-size: 22px; margin-top: 10px;">Vaughan: The Art Of Wellness</p>
+            </div>
+    </div>
+    <div class="side-div" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <div>
+        <img class="side-img" src="https://images.unsplash.com/photo-1545937472-bda38ec31bfc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80">
+    </div>
+        <div class="side-title">
+            <button class="btn" data-aos="fade-right" data-aos-duration="700" data-aos-delay="200">LIFESTYLE</button>
+            <p style="font-size: 14px; margin-top: 15px;">Thu Jun 16 2022</p>
+            <p style="font-size: 22px; margin-top: 10px;">Why Is International Women’s Day<br>Important?</p>
+        </div>
+    </div>
+    <div class="side-div" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <img class="side-img" src="https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=399&q=80">
+        <div class="side-title">
+            <button class="btn" data-aos="fade-right" data-aos-duration="700" data-aos-delay="200">LIFESTYLE</button>
+            <p style="font-size: 14px; margin-top: 15px;">Thu Jun 16 2022</p>
+            <p style="font-size: 22px; margin-top: 10px;">Cashmere Nicole and The Beauty<br>Bakerie: An Inspiration To Women</p>
+        </div>
+    </div>
+</div>
+
+    
+</section>
+
+<section class="cont-vid-main" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+    <div class="cont-img-vid">
+        <div>
+            <iframe class="u-tube" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+            <p class="u-tube-title">UNIIQU3 in The Lab LDN</p>
+            <p class="u-tube-dis">The Jersey club aficionado heads across the pond for her Lab debut</p>
+        </div>
+        <div class="main-vid"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <div class="main-img-vid" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <div>
+                <img class="img-vid" src="https://images.unsplash.com/photo-1644982647531-daff2c7383f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80">
+            </div>
+            <div>
+                <p  class="u-title">​AMÉMÉ in The Lab<br>LDN</p>
+            </div>
+        </div>
+        <hr width="97%" class="line-vid">
+        <div class="main-img-vid" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <div>
+                <img class="img-vid" src="https://images.unsplash.com/photo-1655736394225-1d5a5a57907e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+            </div>
+            <div>
+                <p  class="u-title">​Eli Gosling Drops The Intimate Track Sunsets and Watermelons</p>
+            </div>
+        </div>
+        <hr width="97%" class="line-vid">
+        <div class="main-img-vid" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <div>
+                <img class="img-vid" src="https://images.unsplash.com/photo-1577718389314-387539d5da1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+            </div>
+            <div>
+                <p class="u-title">​HEXE Drops Infectious New Single Crush</p>
+            </div>
+        </div>
+        <hr width="97%" class="line-vid">
+        <div class="main-img-vid" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+            <div>
+                <img class="img-vid" src="https://images.unsplash.com/photo-1655636006098-ec45fd6ceb6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+            </div>
+            <div>
+                <p class="u-title">​Slowthai Hell Is Home Tour Live Music Review</p>
+            </div>
+        </div>
+        <hr width="97%" class="line-vid">
+        </div>
+    </div>
+
+    <div class="button" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+        <button class="btn-vid">MORE VIDEOS</button>
+    </div>
+</section>
+
+<section class="media" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+    <div >
+        <p class="title-media">STAY CONNECTED</p>
+    </div>
+    <div  class="media-btn">
+    <div style="margin-bottom: 50px;">
+        <button class="btn-web">Musicme</button>
+        <button class="btn-f"><i class="bi bi-facebook"></i></button>
+        <button class="btn-f"><i class="bi bi-whatsapp"></i></button>
+        <button class="btn-f"><i class="bi bi-instagram"></i></button>
+        <button class="btn-f"><i class="bi bi-linkedin"></i></button>
+    </div>
+</div>
+</section>
+
+<section data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+    <div class="event-img-main">
+        <img class="event-img" src="https://images.unsplash.com/photo-1520095972714-909e91b038e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+        <button class="event-btn">EVENT</button>
+        <div style="display: flex; justify-content: center;">
+        <p class="event-tag">COACHELLA ANNOUNCES DATES OF 2023 FESTIVAL</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="round-img-div">
+        <div class="circle-img"  data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+            <img class="round-img" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80">
+            <div>
+                <p class="round-img-title">WATCH FRED AGAIN.. TEASE<br>UNRELEASED MUSIC WITH<br>SKRILLEX</p>
+            </div>
+        </div>
+
+        <div class="circle-img" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <img class="round-img" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+            <div>
+                <p class="round-img-title">WATCH FRED AGAIN.. TEASE<br>UNRELEASED MUSIC WITH<br>SKRILLEX</p>
+            </div>
+        </div>
+
+        <div class="circle-img" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+            <img class="round-img" src="https://images.unsplash.com/photo-1611403119860-57c4937ef987?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+            <div>
+                <p class="round-img-title">WATCH FRED AGAIN.. TEASE<br>UNRELEASED MUSIC WITH<br>SKRILLEX</p>
+            </div>
+        </div>
+
+        <div class="circle-img" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+            <img class="round-img" src="https://images.unsplash.com/photo-1615212049275-95561aebe1b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+            <div>
+                <p class="round-img-title">WATCH FRED AGAIN.. TEASE<br>UNRELEASED MUSIC WITH<br>SKRILLEX</p>
+            </div>
+        </div>
+
+        <div class="circle-img" data-aos="fade-up" data-aos-duration="2500" data-aos-delay="400">
+            <img class="round-img" src="https://images.unsplash.com/photo-1512646605205-78422b7c7896?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80">
+            <div>
+                <p class="round-img-title">WATCH FRED AGAIN.. TEASE<br>UNRELEASED MUSIC WITH<br>SKRILLEX</p>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+
+<section data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+    <div class="blog-container">
+        <div class="blog-card">
+            <img class="blog-news-img" src="https://images.unsplash.com/photo-1615212049275-95561aebe1b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+            <div class="blog-news">
+                <p class="blog-news-title">Midnight (Acoustic) Is An<br>Unforgettable Release From<br>Curtis Walsh</p>
+                <p>Sun Jun 12 2022</p>
+                <p class="blog-news-news">Become the bright light for others when<br>their world becomes dark. The single<br>Midnight by Curtis Walsh captures this<br>saying vividly with compassionate<br>vocals that reverberate on the backdrop<br>of gentle piano instrumentals. It is a<br>reassuring and inspirational song that<br>exudes emotion and wamrth with an<br>unforgettable chorus. The Acoustic<br>version of Midnight highlights […]</p>
+                <div style="margin-top: 30px;">
+                    <button class="btn">READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img class="blog-news-img" src="https://images.unsplash.com/photo-1570466451724-9caed542742d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+            <div class="blog-news">
+                <p class="blog-news-title">ViVii Releases The Magical Carmel Beach</p>
+                <p>Sun Jun 12 2022</p>
+                <p class="blog-news-news">Become the bright light for others when<br>their world becomes dark. The single<br>Midnight by Curtis Walsh captures this<br>saying vividly with compassionate<br>vocals that reverberate on the backdrop<br>of gentle piano instrumentals. It is a<br>reassuring and inspirational song that<br>exudes emotion and wamrth with an<br>unforgettable chorus. The Acoustic<br>version of Midnight highlights […]</p>
+                <div style="margin-top: 30px;">
+                    <button class="btn">READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img class="blog-news-img" src="https://images.unsplash.com/photo-1596352512034-2a2520197a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+            <div class="blog-news">
+                <p class="blog-news-title">Love August Bares His Heart On Sephora</p>
+                <p>Sun Jun 12 2022</p>
+                <p class="blog-news-news">Become the bright light for others when<br>their world becomes dark. The single<br>Midnight by Curtis Walsh captures this<br>saying vividly with compassionate<br>vocals that reverberate on the backdrop<br>of gentle piano instrumentals. It is a<br>reassuring and inspirational song that<br>exudes emotion and wamrth with an<br>unforgettable chorus. The Acoustic<br>version of Midnight highlights […]</p>
+                <div style="margin-top: 30px;">
+                    <button class="btn">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+    <div class="blog-container" style="padding-top: 0px;">
+        <div class="blog-card">
+            <img class="blog-news-img" src="https://images.unsplash.com/photo-1655693488829-c07ed6f6efcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+            <div class="blog-news">
+                <p class="blog-news-title">LISTENtoSIN Drops A Lyrical Serenade With My Infinite Love</p>
+                <p>Sun Jun 12 2022</p>
+                <p class="blog-news-news">Become the bright light for others when<br>their world becomes dark. The single<br>Midnight by Curtis Walsh captures this<br>saying vividly with compassionate<br>vocals that reverberate on the backdrop<br>of gentle piano instrumentals. It is a<br>reassuring and inspirational song that<br>exudes emotion and wamrth with an<br>unforgettable chorus. The Acoustic<br>version of Midnight highlights […]</p>
+                <div style="margin-top: 30px;">
+                    <button class="btn">READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img class="blog-news-img" src="https://images.unsplash.com/photo-1611648822527-f13d606d13cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+            <div class="blog-news">
+                <p class="blog-news-title">Jason Kerrison x Leigh Franklin Releases Someone Should Love You</p>
+                <p>Sun Jun 12 2022</p>
+                <p class="blog-news-news">Become the bright light for others when<br>their world becomes dark. The single<br>Midnight by Curtis Walsh captures this<br>saying vividly with compassionate<br>vocals that reverberate on the backdrop<br>of gentle piano instrumentals. It is a<br>reassuring and inspirational song that<br>exudes emotion and wamrth with an<br>unforgettable chorus. The Acoustic<br>version of Midnight highlights […]</p>
+                <div style="margin-top: 30px;">
+                    <button class="btn">READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-card">
+            <img class="blog-news-img" src="https://images.unsplash.com/photo-1567153203404-74111f92abf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+            <div class="blog-news">
+                <p class="blog-news-title">Taylor Roche Drops Breakup Anthem Similar Feeling</p>
+                <p>Sun Jun 12 2022</p>
+                <p class="blog-news-news">Become the bright light for others when<br>their world becomes dark. The single<br>Midnight by Curtis Walsh captures this<br>saying vividly with compassionate<br>vocals that reverberate on the backdrop<br>of gentle piano instrumentals. It is a<br>reassuring and inspirational song that<br>exudes emotion and wamrth with an<br>unforgettable chorus. The Acoustic<br>version of Midnight highlights […]</p>
+                <div style="margin-top: 30px;">
+                    <button class="btn">READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr class="footer-line">
+<section>
+    <div class="footer-back">
+        <div>
+        <p class="site">MUSICME</p>
+        <p class="site-slogun">All Milk. No Duds.</p>
+        </div>
+        <div class="footer-link">
+                    <a class="footer-nav" href="#">JOBS</a>
+                    <a class="footer-nav" href="">REVIEWS</a>
+                    <a class="footer-nav" href="">BEST NEW MUSIC</a>
+                    <a class="footer-nav" href="">TOURS</a>
+                    <a class="footer-nav" href="">FESTIVALS</a>
+                 
+        </div>
+    </div>
+</section>
+
+<script src="musicmeblog.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        once: true,
+    });
+  </script>
+ 
+</body>
+
+</html>
